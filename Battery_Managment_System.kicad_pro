@@ -490,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Battery Managment System.kicad_pro",
+    "filename": "Battery_Managment_System.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -657,12 +657,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Battery Managment System.kicad_sch",
-        "name": "Battery Managment System",
+        "filename": "Battery_Managment_System.kicad_sch",
+        "name": "Battery_Managment_System",
         "uuid": "f7a728f5-ba16-4cce-8f6c-15f4698be607"
       }
     ],
-    "used_designators": "#FLG1-3,R15-49,R53-56,J1-4,J9-10,RT1,D3-21,#PWR4,#PWR14-45,C15-26,E1-3,Q2-8,SH1-2,SW1,TB3,U2-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
