@@ -662,13 +662,13 @@
         "uuid": "f7a728f5-ba16-4cce-8f6c-15f4698be607"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C12-14,C26-31,J4-7,J11,R36,R45-49,D2,#PWR11-14,#PWR36,#PWR41-42,TH3,Q1-2",
     "variants": []
   },
   "sheets": [
     [
       "f7a728f5-ba16-4cce-8f6c-15f4698be607",
-      "Battery Managment System"
+      "Battery_Managment_System"
     ]
   ],
   "text_variables": {},
