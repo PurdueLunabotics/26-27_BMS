@@ -4435,193 +4435,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -5237,6 +5050,12 @@
 		(uuid "2341ab35-e015-41d2-92d2-02d9ef38d595")
 	)
 	(junction
+		(at 289.56 350.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2478c655-7782-453a-96f8-e0699b862190")
+	)
+	(junction
 		(at 350.52 373.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5277,12 +5096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ad0a138-b9d7-44b1-85d8-4cef39ec5f24")
-	)
-	(junction
-		(at 105.41 303.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d8523a2-942b-46ea-a650-a1e22e8cce07")
 	)
 	(junction
 		(at 276.86 223.52)
@@ -6131,16 +5944,6 @@
 			(type default)
 		)
 		(uuid "2ac175e0-63ae-49fd-835d-bd5cd9f7c6fa")
-	)
-	(wire
-		(pts
-			(xy 105.41 303.53) (xy 110.49 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b0720d5-d45d-4637-a6e1-be0e74f02155")
 	)
 	(wire
 		(pts
@@ -7084,16 +6887,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 303.53) (xy 110.49 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7846ac13-480c-4cb1-8cd5-e2771f103a2a")
-	)
-	(wire
-		(pts
 			(xy 455.93 223.52) (xy 455.93 228.6)
 		)
 		(stroke
@@ -7204,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 350.52) (xy 297.18 350.52)
+			(xy 299.72 350.52) (xy 294.64 350.52)
 		)
 		(stroke
 			(width 0)
@@ -7654,6 +7447,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 345.44) (xy 289.56 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0412537-0e6d-4f69-93c3-bfe0343b2f44")
+	)
+	(wire
+		(pts
 			(xy 474.98 71.12) (xy 474.98 85.09)
 		)
 		(stroke
@@ -7844,6 +7647,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 350.52) (xy 280.67 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54e888f-a7b2-42bc-afaf-0ff60f7ba049")
+	)
+	(wire
+		(pts
 			(xy 227.33 223.52) (xy 267.97 223.52)
 		)
 		(stroke
@@ -7881,6 +7694,16 @@
 			(type default)
 		)
 		(uuid "bbed24dd-db88-4716-b4a2-f88b62845c13")
+	)
+	(wire
+		(pts
+			(xy 294.64 345.44) (xy 299.72 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5a43e5-e0fa-4957-bc70-940ade683699")
 	)
 	(wire
 		(pts
@@ -7961,16 +7784,6 @@
 			(type default)
 		)
 		(uuid "c4f109f2-7226-4908-85f3-ecb76aa70b3a")
-	)
-	(wire
-		(pts
-			(xy 299.72 345.44) (xy 297.18 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79c47ea-e754-4c6f-8f03-8a7c13d9a9d7")
 	)
 	(wire
 		(pts
@@ -8806,6 +8619,30 @@
 			)
 		)
 	)
+	(global_label "Pack-"
+		(shape input)
+		(at 105.41 303.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e10adad-c2d8-42a9-9d08-6f3ddb205edb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5033 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SRN"
 		(shape input)
 		(at 105.41 262.89 0)
@@ -8902,6 +8739,30 @@
 			)
 		)
 	)
+	(global_label "Pack-"
+		(shape input)
+		(at 487.68 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f28614f-ddef-4fcd-9735-e736c0cab628")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 487.68 120.8533 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 227.33 238.76 0)
@@ -8987,6 +8848,30 @@
 		(uuid "97680316-ce36-4e17-89fa-f2ab29ae0d48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 318.77 81.7252 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Pack-"
+		(shape input)
+		(at 387.35 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a84c6888-5b0c-4f67-95b7-1e2722619dfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 387.35 133.5533 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9091,6 +8976,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "Pack-"
+		(shape input)
+		(at 464.82 265.43 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d261ef63-de11-4f7d-89c7-571d89e6341b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 464.82 274.5233 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9439,85 +9348,6 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 297.18 345.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03e8ae03-4bca-4256-8efc-23d39be46974")
-		(property "Reference" "#PWR22"
-			(at 290.83 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 345.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d9e4481-fb55-47fa-8687-72c2549d3d2c")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -10857,83 +10687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 464.82 265.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27659d07-d560-4fe8-b126-8bd65270a9f8")
-		(property "Reference" "#PWR23"
-			(at 464.82 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pack-"
-			(at 464.82 268.732 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 464.82 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 464.82 266.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 464.82 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27009722-46f0-4152-b381-25675c5d9b4c")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_US")
 		(at 246.38 226.06 90)
 		(unit 1)
@@ -11411,6 +11164,86 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 292.1 345.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39db7f20-2635-4052-9694-e7b70398809f")
+		(property "Reference" "NT2"
+			(at 292.1 340.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 292.1 342.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 292.1 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 292.1 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1b5a8114-599d-4bfe-87d6-11b5db628638")
+		)
+		(pin "1"
+			(uuid "c711f2a8-ba7f-48d7-9086-a903a836b45e")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -13205,83 +13038,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 387.35 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6be66247-4040-4584-a9db-70fd439a5943")
-		(property "Reference" "#PWR27"
-			(at 387.35 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pack-"
-			(at 387.35 127.762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 387.35 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "569403cb-365b-40ad-8ce1-c08a0e3ce5f7")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Filled")
 		(at 387.35 115.57 270)
 		(unit 1)
@@ -15020,7 +14776,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 297.18 350.52 270)
+		(at 280.67 350.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15031,7 +14787,7 @@
 		(fields_autoplaced yes)
 		(uuid "a467a6f9-deab-43ff-adeb-9e5d3274e1f4")
 		(property "Reference" "#PWR24"
-			(at 290.83 350.52 0)
+			(at 280.67 356.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15042,18 +14798,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 350.5199 90)
+			(at 283.21 351.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 350.52 0)
+			(at 280.67 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15064,7 +14820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 350.52 0)
+			(at 280.67 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15075,7 +14831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 350.52 0)
+			(at 280.67 350.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15758,6 +15514,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 292.1 350.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd3001c8-b19c-4efb-b158-6a395db577e3")
+		(property "Reference" "NT3"
+			(at 292.1 345.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 292.1 347.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+			(at 292.1 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 292.1 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e19f00fa-143d-40a0-a105-13fc7e664702")
+		)
+		(pin "1"
+			(uuid "e6dfcca6-6caa-4625-aaef-8660c8be9b1e")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor_US")
 		(at 147.32 262.89 0)
 		(unit 1)
@@ -15833,83 +15669,6 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 110.49 306.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c3477399-392a-42ab-84b9-dcfaa5859b2b")
-		(property "Reference" "#PWR25"
-			(at 110.49 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pack-"
-			(at 110.49 309.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 110.49 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03f99f76-8979-4745-819c-db4ba6c9682f")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -16203,83 +15962,6 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 487.68 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce12b364-850e-4171-88dc-7396dc80b9f5")
-		(property "Reference" "#PWR26"
-			(at 487.68 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pack-"
-			(at 487.68 115.062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 487.68 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 487.68 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 487.68 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59aac315-494c-414f-b97a-c3606360a805")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR26")
 					(unit 1)
 				)
 			)
