@@ -10324,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 43.18 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12936,7 +12936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 379.73 125.73 0)
 			(hide yes)
 			(show_name no)
