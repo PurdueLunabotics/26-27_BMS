@@ -4511,6 +4511,12 @@
 		(uuid "3ad0a138-b9d7-44b1-85d8-4cef39ec5f24")
 	)
 	(junction
+		(at 363.22 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a0cf47-41b3-4ffe-9c38-2ee397297b3e")
+	)
+	(junction
 		(at 156.21 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4665,6 +4671,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f083a48-70cf-4bc5-8163-a0d0c1bf09c2")
+	)
+	(junction
+		(at 363.22 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98645a1f-3abe-4e44-840a-f8de26c8c97a")
 	)
 	(junction
 		(at 138.43 53.34)
@@ -4835,6 +4847,12 @@
 		(uuid "f61279ec-2a25-4ada-af4c-e32c094f14b8")
 	)
 	(junction
+		(at 350.52 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f752297d-f58d-4fb8-8bbb-355bf397b092")
+	)
+	(junction
 		(at 231.14 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4851,10 +4869,6 @@
 	(no_connect
 		(at 378.46 194.31)
 		(uuid "5f87236e-8c44-4100-8991-5947305365e9")
-	)
-	(no_connect
-		(at 374.65 120.65)
-		(uuid "76314492-87a0-41ab-a33e-fdd0f5103bdf")
 	)
 	(no_connect
 		(at 223.52 147.32)
@@ -4988,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 123.19) (xy 374.65 123.19)
+			(xy 340.36 123.19) (xy 350.52 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5388,6 +5402,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 115.57) (xy 363.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c4d5fc-0b71-4c24-8a82-7334818d1dce")
+	)
+	(wire
+		(pts
 			(xy 171.45 144.78) (xy 172.72 144.78)
 		)
 		(stroke
@@ -5555,6 +5579,16 @@
 			(type default)
 		)
 		(uuid "4d627bb5-c308-4e9f-b7b6-ee61f01b33c4")
+	)
+	(wire
+		(pts
+			(xy 374.65 120.65) (xy 374.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7e1dcc-25ea-45a6-9e1d-8b31b2d3099c")
 	)
 	(wire
 		(pts
@@ -6808,6 +6842,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 115.57) (xy 374.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9ba10d-bda9-4cc9-a043-7fa572909519")
+	)
+	(wire
+		(pts
 			(xy 355.6 74.93) (xy 350.52 74.93)
 		)
 		(stroke
@@ -7078,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 125.73) (xy 374.65 125.73)
+			(xy 355.6 125.73) (xy 363.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7145,6 +7189,16 @@
 			(type default)
 		)
 		(uuid "ec5d55d3-1627-44e6-b756-7a49fc68167d")
+	)
+	(wire
+		(pts
+			(xy 363.22 125.73) (xy 374.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc8565a-41db-4c06-9b80-44891d84d5cd")
 	)
 	(wire
 		(pts
@@ -7268,6 +7322,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 118.11) (xy 363.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64a8339-6715-40e8-a23f-79174471d146")
+	)
+	(wire
+		(pts
 			(xy 125.73 49.53) (xy 125.73 53.34)
 		)
 		(stroke
@@ -7315,6 +7379,16 @@
 			(type default)
 		)
 		(uuid "fc566e08-77ab-42c0-ab78-ea5c8164ad4a")
+	)
+	(wire
+		(pts
+			(xy 350.52 123.19) (xy 374.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9b9ad8-436b-49a4-92ff-fe2af84bc8a2")
 	)
 	(wire
 		(pts
@@ -8677,6 +8751,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 350.52 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f54e869-ce76-4c4b-be97-a62312d166f1")
+		(property "Reference" "R50"
+			(at 353.06 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 353.06 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 349.504 119.126 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 350.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77a0ba1d-e829-4bf6-b3fc-c2d8a0157a49")
+		)
+		(pin "2"
+			(uuid "971c5b61-697f-4403-b250-cf6b429be843")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 166.37 22.86 90)
 		(unit 1)
@@ -8788,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
+		(property "Footprint" "BMS_Footprints:TH_XT90PB-F"
 			(at 40.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9516,7 +9672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 231.14 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9678,7 +9834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 242.57 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -12133,7 +12289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 252.73 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13401,6 +13557,88 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 363.22 121.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1694e0b-195f-4ad1-add9-d355877c8b0f")
+		(property "Reference" "R51"
+			(at 365.76 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 365.76 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 362.204 121.666 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 363.22 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2394c5f5-a331-4c19-ad18-ad7ff00dacc6")
+		)
+		(pin "2"
+			(uuid "bd52d35b-e97d-4506-a6ff-36083e96a4c5")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 204.47 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -14138,7 +14376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 161.29 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14217,7 +14455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 259.08 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14381,7 +14619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
 			(at 170.18 193.04 0)
 			(hide yes)
 			(show_name no)
