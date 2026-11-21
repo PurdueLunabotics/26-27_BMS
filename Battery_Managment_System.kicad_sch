@@ -7524,30 +7524,6 @@
 			)
 		)
 	)
-	(global_label "BAT-"
-		(shape input)
-		(at 100.33 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39ab45fa-19d1-46ca-b214-1133c3943439")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.2138 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "Pack-"
 		(shape input)
 		(at 140.97 232.41 0)
@@ -8458,7 +8434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 69.85 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8870,7 +8846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
 			(at 40.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9169,7 +9145,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fa933f2-5828-4650-8e8c-6b2fe498b69b")
 		(property "Reference" "D5"
 			(at 128.27 44.4499 90)
@@ -9182,8 +9157,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16V"
-			(at 128.27 46.9899 90)
+		(property "Value" "16V MMSZ5246B-TP"
+			(at 103.632 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9265,7 +9240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100V"
+		(property "Value" "100V BAT46W-E3-18"
 			(at 285.75 131.1274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +9251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 283.21 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9670,7 +9645,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15V"
+		(property "Value" "15V SMAJ15CA-13-F"
 			(at 340.36 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9681,7 +9656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 337.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9944,7 +9919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wago:Wago_734-134_1x04_P3.50mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
 			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +10219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 325.12 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11480,7 +11455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 403.86 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +12264,7 @@
 				)
 			)
 		)
-		(property "Value" "100V"
+		(property "Value" "100V BAT46W-E3-18"
 			(at 150.1775 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12299,7 +12274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 149.86 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12518,7 +12493,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9dc7e6a5-5503-47b1-8f67-c63250641531")
 		(property "Reference" "D10"
 			(at 342.9 130.8099 90)
@@ -12531,8 +12505,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V"
-			(at 342.9 133.3499 90)
+		(property "Value" "5V ESD9X5.0ST5G"
+			(at 321.056 132.334 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12542,7 +12516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 340.36 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -13018,7 +12992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wago:Wago_734-134_1x04_P3.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 379.73 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -13259,7 +13233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16V"
+		(property "Value" "16V MMSZ5246B-TP"
 			(at 233.68 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13505,7 +13479,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "5V ESD9X5.0ST5G"
 			(at 358.14 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13516,7 +13490,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 355.6 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13595,7 +13569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3.9mm"
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 325.12 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -13676,7 +13650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 152.4 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14080,7 +14054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x3.6mm_P0.4mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 332.74 189.23 0)
 			(hide yes)
 			(show_name no)
