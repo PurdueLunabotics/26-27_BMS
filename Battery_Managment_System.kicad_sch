@@ -4757,12 +4757,6 @@
 		(uuid "d658208f-66b3-408c-9fd7-6aed658f0401")
 	)
 	(junction
-		(at 355.6 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d67e3727-e111-4cb5-8ed3-6c4b553ac731")
-	)
-	(junction
 		(at 171.45 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4857,6 +4851,10 @@
 	(no_connect
 		(at 378.46 194.31)
 		(uuid "5f87236e-8c44-4100-8991-5947305365e9")
+	)
+	(no_connect
+		(at 374.65 120.65)
+		(uuid "76314492-87a0-41ab-a33e-fdd0f5103bdf")
 	)
 	(no_connect
 		(at 223.52 147.32)
@@ -5450,16 +5448,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 116.84) (xy 340.36 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44824a5a-cf86-4a29-ba78-e8019b527e68")
-	)
-	(wire
-		(pts
 			(xy 332.74 222.25) (xy 332.74 232.41)
 		)
 		(stroke
@@ -5920,16 +5908,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 109.22) (xy 340.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d5e8132-ca41-438f-83f4-286b3ce3c62f")
-	)
-	(wire
-		(pts
 			(xy 314.96 63.5) (xy 314.96 74.93)
 		)
 		(stroke
@@ -5967,16 +5945,6 @@
 			(type default)
 		)
 		(uuid "71e04ac8-2984-467a-85c6-5f93cc95adef")
-	)
-	(wire
-		(pts
-			(xy 355.6 116.84) (xy 355.6 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72094f11-7c97-4461-a24d-62be31c56efc")
 	)
 	(wire
 		(pts
@@ -6047,16 +6015,6 @@
 			(type default)
 		)
 		(uuid "79bfb273-2d03-47ab-97ae-a3a73aaf58ac")
-	)
-	(wire
-		(pts
-			(xy 355.6 104.14) (xy 355.6 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79ff084d-e55a-43ee-b872-e9d8933a3504")
 	)
 	(wire
 		(pts
@@ -6247,16 +6205,6 @@
 			(type default)
 		)
 		(uuid "8efe299d-9d94-4939-ac10-9c2c53ce4d3c")
-	)
-	(wire
-		(pts
-			(xy 340.36 104.14) (xy 355.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3ef44b-4c8d-47bf-a5b5-84599faa2c38")
 	)
 	(wire
 		(pts
@@ -6567,16 +6515,6 @@
 			(type default)
 		)
 		(uuid "a7dfad7b-0df2-4747-a8e4-8dbf897082bf")
-	)
-	(wire
-		(pts
-			(xy 374.65 120.65) (xy 365.76 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8cc061b-80f9-42d4-ac73-2a11b2408db6")
 	)
 	(wire
 		(pts
@@ -7270,16 +7208,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 104.14) (xy 365.76 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ad012f-37a3-4cc2-8dd1-b552f37811f2")
-	)
-	(wire
-		(pts
 			(xy 181.61 198.12) (xy 181.61 199.39)
 		)
 		(stroke
@@ -7347,16 +7275,6 @@
 			(type default)
 		)
 		(uuid "f7bbc21f-e793-4ee4-849e-c6ae65edcdbd")
-	)
-	(wire
-		(pts
-			(xy 365.76 120.65) (xy 365.76 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7e8a660-dab8-4775-830c-3b8fe82fc12a")
 	)
 	(wire
 		(pts
@@ -11553,88 +11471,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 340.36 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7738add9-8167-466f-bc30-f935299f13a9")
-		(property "Reference" "R32"
-			(at 342.9 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 342.9 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 341.376 113.284 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 340.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba6313e2-a585-4176-a09e-ae7fee0dff32")
-		)
-		(pin "2"
-			(uuid "5ef7c433-825b-493f-b6f3-8a8aec3b557b")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 96.52 160.02 270)
 		(unit 1)
 		(body_style 1)
@@ -13718,88 +13554,6 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 355.6 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c80beee1-2b3e-4501-8698-ad262193d996")
-		(property "Reference" "R33"
-			(at 358.14 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 358.14 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 356.616 113.284 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 355.6 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba6313e2-a585-4176-a09e-ae7fee0dff33")
-		)
-		(pin "2"
-			(uuid "5ef7c433-825b-493f-b6f3-8a8aec3b557c")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R33")
 					(unit 1)
 				)
 			)
