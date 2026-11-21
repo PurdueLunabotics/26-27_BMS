@@ -5,7 +5,7 @@
 	(uuid "f7a728f5-ba16-4cce-8f6c-15f4698be607")
 	(paper "C")
 	(lib_symbols
-		(symbol "BMS_Symbols:BQ7695201PFBR"
+		(symbol "BMS_Symbols:BQ7697202PFBR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "BQ7695201PFBR"
+			(property "Value" "BQ7697202PFBR"
 				(at 25.4 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -46,7 +46,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/bq76952"
+			(property "Datasheet" "https://www.ti.com/lit/gpn/bq76972"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "BQ7695201PFBR"
+			(property "ki_keywords" "BQ7697202PFBR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,7 +101,7 @@
 					)
 				)
 			)
-			(symbol "BQ7695201PFBR_0_1"
+			(symbol "BQ7697202PFBR_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -63.5)
@@ -10950,7 +10950,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BMS_Symbols:BQ7695201PFBR")
+		(lib_id "BMS_Symbols:BQ7697202PFBR")
 		(at 176.53 185.42 0)
 		(unit 1)
 		(body_style 1)
@@ -10981,7 +10981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "TQFP48_PFB_TEX"
 			(at 176.53 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10993,7 +10993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/bq76952"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/bq76972"
 			(at 176.53 185.42 0)
 			(hide yes)
 			(show_name no)
