@@ -4469,6 +4469,12 @@
 		(uuid "2341ab35-e015-41d2-92d2-02d9ef38d595")
 	)
 	(junction
+		(at 322.58 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "238485db-d27b-4a35-950c-f1fe8d271d14")
+	)
+	(junction
 		(at 204.47 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4659,12 +4665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f083a48-70cf-4bc5-8163-a0d0c1bf09c2")
-	)
-	(junction
-		(at 322.58 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91d7a7b5-9adc-49dc-8894-e0cd1a47b049")
 	)
 	(junction
 		(at 138.43 53.34)
@@ -5690,6 +5690,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 189.23) (xy 332.74 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55d9277c-e41a-49dc-9aa8-11cf507194a4")
+	)
+	(wire
+		(pts
 			(xy 194.31 22.86) (xy 218.44 22.86)
 		)
 		(stroke
@@ -6100,16 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 194.31) (xy 327.66 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c078b3-225f-4d3c-80ae-c818fc7ee17f")
-	)
-	(wire
-		(pts
 			(xy 171.45 134.62) (xy 171.45 137.16)
 		)
 		(stroke
@@ -6367,6 +6367,16 @@
 			(type default)
 		)
 		(uuid "9996e413-3a4a-4f3c-86df-312201cff8d5")
+	)
+	(wire
+		(pts
+			(xy 322.58 194.31) (xy 332.74 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cac3e8-3eb5-4f2d-a08d-10aec08e068f")
 	)
 	(wire
 		(pts
@@ -6697,16 +6707,6 @@
 			(type default)
 		)
 		(uuid "bbed24dd-db88-4716-b4a2-f88b62845c13")
-	)
-	(wire
-		(pts
-			(xy 327.66 189.23) (xy 332.74 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd5a43e5-e0fa-4957-bc70-940ade683699")
 	)
 	(wire
 		(pts
@@ -7620,6 +7620,30 @@
 			)
 		)
 	)
+	(global_label "Pack+"
+		(shape input)
+		(at 347.98 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51327c64-632a-40be-8e6a-66c243694821")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 347.98 45.5167 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CD"
 		(shape input)
 		(at 283.21 125.73 90)
@@ -8505,7 +8529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16.5k 0.1% *"
+		(property "Value" "16.5k 0.1% RG1608P-1652-B-T5"
 			(at 290.83 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8766,7 +8790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -8928,7 +8952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 183.8452 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9007,7 +9031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 282.9052 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9168,7 +9192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 125.73 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9333,7 +9357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 315.9252 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9412,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 299.72 142.5448 0)
 			(hide yes)
 			(show_name no)
@@ -9574,7 +9598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 231.14 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9736,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 242.57 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9806,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Value" "220kΩ 0.1% *"
+		(property "Value" "220kΩ 0.1% RG2012P-224-B-T5"
 			(at 281.94 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9816,7 +9840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 282.194 195.834 90)
 			(hide yes)
 			(show_name no)
@@ -10182,86 +10206,6 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 325.12 189.23 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39db7f20-2635-4052-9694-e7b70398809f")
-		(property "Reference" "NT2"
-			(at 325.12 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 325.12 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 325.12 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 325.12 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1b5a8114-599d-4bfe-87d6-11b5db628638")
-		)
-		(pin "1"
-			(uuid "c711f2a8-ba7f-48d7-9086-a903a836b45e")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -10699,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Value" "1mΩ"
+		(property "Value" "1mΩ PSR100KTQFH1L00"
 			(at 133.35 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10709,7 +10653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 133.604 231.394 90)
 			(hide yes)
 			(show_name no)
@@ -11056,7 +11000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 194.31 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -11138,7 +11082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.5752 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12353,7 +12297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 252.73 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12676,7 +12620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 315.9252 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13244,7 +13188,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 231.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13533,85 +13477,6 @@
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 325.12 194.31 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd3001c8-b19c-4efb-b158-6a395db577e3")
-		(property "Reference" "NT3"
-			(at 327.152 190.754 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 327.152 192.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 325.12 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 325.12 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e19f00fa-143d-40a0-a105-13fc7e664702")
-		)
-		(pin "1"
-			(uuid "e6dfcca6-6caa-4625-aaef-8660c8be9b1e")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -14260,7 +14125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 349.25 221.2848 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 161.29 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14598,7 +14463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 259.08 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -14762,7 +14627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
 			(at 170.18 193.04 0)
 			(hide yes)
 			(show_name no)
