@@ -4131,6 +4131,321 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRFS4115"
 			(pin_names
 				(hide yes)
@@ -4815,17 +5130,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Chip -"
-		(exclude_from_sim no)
-		(at 398.018 123.698 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "005a6d72-173d-47b1-a64b-aa5e06120e79")
-	)
 	(text "Reason to use 2x5k resistors instead of\n1x10k ohm resistor is to share the thermal load\nduring a fault "
 		(exclude_from_sim no)
 		(at 272.288 72.898 0)
@@ -4846,17 +5150,6 @@
 			(justify right)
 		)
 		(uuid "026bd802-ab2b-4cb0-a8d9-9e85b938fb8e")
-	)
-	(text "+5V"
-		(exclude_from_sim no)
-		(at 394.462 120.904 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "086a6b2b-1beb-4f22-9626-e729ac38f476")
 	)
 	(text "Need to look into Kelvin Connection \nfor the sense resistor"
 		(exclude_from_sim no)
@@ -4879,6 +5172,17 @@
 			(justify top)
 		)
 		(uuid "263dd28c-0f14-45f5-aac4-d0e46ec69c08")
+	)
+	(text "Chip -"
+		(exclude_from_sim no)
+		(at 417.068 102.108 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "29665ce6-6455-4d35-8db3-4a6ab491dcbc")
 	)
 	(text "CHG FET"
 		(exclude_from_sim no)
@@ -4921,6 +5225,17 @@
 			)
 		)
 		(uuid "6fd0f852-601e-4d40-afb8-f94a611b8ee7")
+	)
+	(text "+5V"
+		(exclude_from_sim no)
+		(at 414.782 99.822 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "7e4a9d2c-ded6-4aa2-93b1-3677af6f599b")
 	)
 	(text "BAT -"
 		(exclude_from_sim no)
@@ -4985,27 +5300,33 @@
 		)
 		(uuid "b55bce69-8f37-488d-bb20-d6aa8dd62756")
 	)
-	(text "SDA"
-		(exclude_from_sim no)
-		(at 394.208 128.778 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "eb1ab06d-8130-4a41-8a00-224f6dc37455")
-	)
 	(text "SCL"
 		(exclude_from_sim no)
-		(at 394.208 126.238 0)
+		(at 414.528 105.156 0)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
 			(justify right)
 		)
-		(uuid "ee7b94d0-f81c-422d-8b37-767764af94b2")
+		(uuid "d428ae4f-a985-4bac-b1b1-59c0be2795e2")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 414.528 107.696 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "fb25c904-369e-432a-8c17-29a4b9e9c27b")
+	)
+	(junction
+		(at 363.22 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0596b392-0a70-48be-8e4c-d06689244517")
 	)
 	(junction
 		(at 295.91 49.53)
@@ -5080,12 +5401,6 @@
 		(uuid "28a6d57e-8a92-455c-8e78-390e544f38e7")
 	)
 	(junction
-		(at 355.6 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f743304-f73c-4fcf-912b-30b9e0cf8e4f")
-	)
-	(junction
 		(at 171.45 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5110,12 +5425,6 @@
 		(uuid "3ad0a138-b9d7-44b1-85d8-4cef39ec5f24")
 	)
 	(junction
-		(at 355.6 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46a0cf47-41b3-4ffe-9c38-2ee397297b3e")
-	)
-	(junction
 		(at 156.21 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5138,6 +5447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e9cdf57-1dcd-4c2c-a1cc-543856f364e5")
+	)
+	(junction
+		(at 402.59 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ddc42d-1ae1-4635-9702-f6604288662e")
 	)
 	(junction
 		(at 123.19 175.26)
@@ -5176,6 +5491,12 @@
 		(uuid "687b3e81-d6fa-43c0-8399-dbb02e5725af")
 	)
 	(junction
+		(at 392.43 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69071765-3903-4218-98c7-ea3b9865f0e1")
+	)
+	(junction
 		(at 171.45 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5188,16 +5509,16 @@
 		(uuid "6b5eaf74-4f98-4417-b673-915d0f823a32")
 	)
 	(junction
-		(at 364.49 140.97)
+		(at 373.38 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "730defdc-2378-48f0-9d36-4cab368ad558")
+		(uuid "6fa0095f-bfc5-4eb8-9fd1-a0b759e870ab")
 	)
 	(junction
-		(at 347.98 140.97)
+		(at 382.27 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74687ee6-7655-4090-9a4c-d95a2d7397c7")
+		(uuid "73c7f3f1-e1a7-49c3-9bda-159731634444")
 	)
 	(junction
 		(at 171.45 152.4)
@@ -5216,6 +5537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fe00398-b04b-4612-bee8-240950ab78f5")
+	)
+	(junction
+		(at 353.06 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82c9b6ba-ad0f-4e34-a280-598917536ecc")
 	)
 	(junction
 		(at 69.85 160.02)
@@ -5242,7 +5569,7 @@
 		(uuid "897c4a6a-365e-4e72-859c-31e8a21faaa9")
 	)
 	(junction
-		(at 342.9 123.19)
+		(at 340.36 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ba2edaf-24bc-47cf-b895-755b77051ea9")
@@ -5270,12 +5597,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cd8de2d-9f90-4a65-8437-86a861796e96")
-	)
-	(junction
-		(at 332.74 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fdafb0c-395b-471f-92fe-92b80de606a4")
 	)
 	(junction
 		(at 182.88 90.17)
@@ -5338,6 +5659,18 @@
 		(uuid "d12743bb-3f7c-48bb-8fb1-195392f74caf")
 	)
 	(junction
+		(at 392.43 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d4bebc-426b-466a-b316-38442e1a5775")
+	)
+	(junction
+		(at 402.59 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d42c4d20-dede-4e07-a112-0c66f00b506a")
+	)
+	(junction
 		(at 127 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5374,12 +5707,6 @@
 		(uuid "df7f20ff-3682-417c-b9dc-81fb2970ff91")
 	)
 	(junction
-		(at 347.98 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0002fd9-2c49-4088-8ba8-eec63506f7d8")
-	)
-	(junction
 		(at 283.21 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5414,6 +5741,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed95dd5c-abf8-4eb8-a7ac-5f8a264ae7b0")
+	)
+	(junction
+		(at 396.24 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2b5097-1592-47cb-a3d3-37d39716c5e6")
+	)
+	(junction
+		(at 353.06 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2a5bfc0-5361-4e74-a8cf-749d0d96f77b")
 	)
 	(junction
 		(at 140.97 212.09)
@@ -5484,6 +5823,26 @@
 			(type default)
 		)
 		(uuid "017c088b-ca81-44bd-b30d-f470a619b3d2")
+	)
+	(wire
+		(pts
+			(xy 392.43 99.06) (xy 402.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024f3a6b-2a45-47b1-98a8-359906bb08c9")
+	)
+	(wire
+		(pts
+			(xy 391.16 114.3) (xy 392.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037dcd8d-9a59-4b92-85d1-e3b2b3f36e6e")
 	)
 	(wire
 		(pts
@@ -5587,7 +5946,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 123.19) (xy 342.9 123.19)
+			(xy 327.66 100.33) (xy 340.36 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5727,6 +6086,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 92.71) (xy 373.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2e2fd8-03fe-4ceb-a3ec-99d80378b384")
+	)
+	(wire
+		(pts
 			(xy 274.32 196.85) (xy 278.13 196.85)
 		)
 		(stroke
@@ -5847,6 +6216,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 114.3) (xy 396.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29920182-5aa9-4333-9442-dc05d180d9a9")
+	)
+	(wire
+		(pts
 			(xy 170.18 22.86) (xy 186.69 22.86)
 		)
 		(stroke
@@ -5894,6 +6273,26 @@
 			(type default)
 		)
 		(uuid "2f0a82a8-dd55-4691-a42d-b4d686939d68")
+	)
+	(wire
+		(pts
+			(xy 353.06 92.71) (xy 363.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30582b51-1f01-4e9e-a2bb-e46a176489e8")
+	)
+	(wire
+		(pts
+			(xy 392.43 99.06) (xy 392.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a32aa8-d847-4aae-8282-ce75486ce169")
 	)
 	(wire
 		(pts
@@ -5957,17 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 140.97) (xy 347.98 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378a2ee3-9502-4ccb-b820-4671c8056d0f")
-	)
-	(wire
-		(pts
-			(xy 342.9 115.57) (xy 355.6 115.57)
+			(xy 340.36 92.71) (xy 353.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5984,6 +6373,16 @@
 			(type default)
 		)
 		(uuid "398c408f-46b4-4294-8fb4-361ba38972ce")
+	)
+	(wire
+		(pts
+			(xy 382.27 95.25) (xy 392.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c67d0e-2019-4694-a8f0-558b5722a902")
 	)
 	(wire
 		(pts
@@ -6007,16 +6406,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 125.73) (xy 382.27 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec13426-32eb-4eb0-b7ed-0f16f67d4d67")
-	)
-	(wire
-		(pts
 			(xy 67.31 160.02) (xy 67.31 147.32)
 		)
 		(stroke
@@ -6037,6 +6426,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 123.19) (xy 411.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416b9c2a-5b65-4875-8474-9d78930a4a7a")
+	)
+	(wire
+		(pts
 			(xy 181.61 38.1) (xy 199.39 38.1)
 		)
 		(stroke
@@ -6044,6 +6443,16 @@
 			(type default)
 		)
 		(uuid "436d515e-d7c1-4b59-bfca-6951cf1315c0")
+	)
+	(wire
+		(pts
+			(xy 396.24 127) (xy 402.59 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45302b74-b988-4c16-bf21-8e25819f127a")
 	)
 	(wire
 		(pts
@@ -6147,6 +6556,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 102.87) (xy 382.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca76ef3-6c14-4773-94c8-389591c34641")
+	)
+	(wire
+		(pts
 			(xy 302.26 208.28) (xy 311.15 208.28)
 		)
 		(stroke
@@ -6154,16 +6573,6 @@
 			(type default)
 		)
 		(uuid "4d627bb5-c308-4e9f-b7b6-ee61f01b33c4")
-	)
-	(wire
-		(pts
-			(xy 374.65 120.65) (xy 374.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7e1dcc-25ea-45a6-9e1d-8b31b2d3099c")
 	)
 	(wire
 		(pts
@@ -6357,13 +6766,13 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 123.19) (xy 332.74 123.19)
+			(xy 402.59 104.14) (xy 411.48 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a48b2c6-f8dd-4c8d-bdcb-0291790d38af")
+		(uuid "5a6c0574-ada8-4b10-a1b5-68842cc90095")
 	)
 	(wire
 		(pts
@@ -6427,16 +6836,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 140.97) (xy 364.49 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c73e8a-9d7e-46ad-a24e-e59a10c8ced3")
-	)
-	(wire
-		(pts
 			(xy 198.12 97.79) (xy 198.12 99.06)
 		)
 		(stroke
@@ -6464,16 +6863,6 @@
 			(type default)
 		)
 		(uuid "67749e0d-1459-42b8-b9e8-e1cedd1475f8")
-	)
-	(wire
-		(pts
-			(xy 364.49 140.97) (xy 378.46 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "678c5106-e615-4637-afc1-c4bdaa5a4810")
 	)
 	(wire
 		(pts
@@ -6507,13 +6896,13 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 123.19) (xy 332.74 128.27)
+			(xy 396.24 114.3) (xy 402.59 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cf44b64-da0b-4af7-ab0e-a363a18fc1fa")
+		(uuid "6b18ab99-54df-41e9-9bf6-1842c695bc89")
 	)
 	(wire
 		(pts
@@ -6597,13 +6986,13 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 142.24) (xy 364.49 140.97)
+			(xy 381 114.3) (xy 361.95 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7695e32e-34da-4c79-bc62-692c0c7b0939")
+		(uuid "76098bb5-5c63-46b3-b0a9-a972192fcb4f")
 	)
 	(wire
 		(pts
@@ -6664,6 +7053,16 @@
 			(type default)
 		)
 		(uuid "7eaa12dd-086a-4dc9-8563-889c7abf57ac")
+	)
+	(wire
+		(pts
+			(xy 411.48 104.14) (xy 411.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809fe9fc-2a92-4b4f-9da7-9a696a71c36c")
 	)
 	(wire
 		(pts
@@ -6807,16 +7206,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 123.19) (xy 378.46 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6ce811-9d7c-4de7-9933-a1e1a9edc52c")
-	)
-	(wire
-		(pts
 			(xy 233.68 110.49) (xy 233.68 127)
 		)
 		(stroke
@@ -6834,6 +7223,26 @@
 			(type default)
 		)
 		(uuid "90c508d7-a303-4cf5-bb3e-3800b2e9f0a6")
+	)
+	(wire
+		(pts
+			(xy 382.27 104.14) (xy 402.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9336ea22-95d4-471c-b790-ecbdffb59227")
+	)
+	(wire
+		(pts
+			(xy 396.24 121.92) (xy 396.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934db36b-6cbd-4712-bb57-0cd3f436c292")
 	)
 	(wire
 		(pts
@@ -6944,6 +7353,16 @@
 			(type default)
 		)
 		(uuid "9a6db2d3-8943-49c0-ab8c-e39d09e73421")
+	)
+	(wire
+		(pts
+			(xy 402.59 114.3) (xy 402.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9a2779-1b52-41ec-857b-14e6672a026f")
 	)
 	(wire
 		(pts
@@ -7077,6 +7496,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 113.03) (xy 392.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a586501e-f914-4c28-95f9-81d1e56643b3")
+	)
+	(wire
+		(pts
 			(xy 337.82 54.61) (xy 337.82 60.96)
 		)
 		(stroke
@@ -7107,16 +7536,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 135.89) (xy 332.74 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa023e9b-c550-417f-89a8-09f94192cc96")
-	)
-	(wire
-		(pts
 			(xy 203.2 232.41) (xy 203.2 226.06)
 		)
 		(stroke
@@ -7137,7 +7556,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 123.19) (xy 375.92 123.19)
+			(xy 340.36 100.33) (xy 361.95 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7167,6 +7586,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 95.25) (xy 392.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd521ba-d996-472b-ae56-f9759070471a")
+	)
+	(wire
+		(pts
 			(xy 273.05 160.02) (xy 281.94 160.02)
 		)
 		(stroke
@@ -7187,26 +7616,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 125.73) (xy 347.98 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b406c62c-987a-47e7-a0a7-0deedd36f049")
-	)
-	(wire
-		(pts
-			(xy 382.27 123.19) (xy 378.46 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b03b45-6754-4cc0-b605-da6c2d051e6e")
-	)
-	(wire
-		(pts
 			(xy 381 199.39) (xy 378.46 199.39)
 		)
 		(stroke
@@ -7214,16 +7623,6 @@
 			(type default)
 		)
 		(uuid "b4da852d-8826-47c2-9b1a-60660f8eb6e0")
-	)
-	(wire
-		(pts
-			(xy 374.65 120.65) (xy 382.27 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b54b70be-c086-4a6c-b9ec-caf91f017463")
 	)
 	(wire
 		(pts
@@ -7257,7 +7656,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 128.27) (xy 375.92 123.19)
+			(xy 361.95 100.33) (xy 361.95 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7347,6 +7746,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 102.87) (xy 341.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d1cdc2-3585-4a55-b596-e8e6d8a59f9f")
+	)
+	(wire
+		(pts
 			(xy 138.43 22.86) (xy 138.43 38.1)
 		)
 		(stroke
@@ -7354,6 +7763,16 @@
 			(type default)
 		)
 		(uuid "c860f4d2-0805-478e-b01d-423f768897a3")
+	)
+	(wire
+		(pts
+			(xy 402.59 127) (xy 411.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86efc77-0e1a-4588-8413-b3862d713178")
 	)
 	(wire
 		(pts
@@ -7417,16 +7836,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 115.57) (xy 374.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc9ba10d-bda9-4cc9-a043-7fa572909519")
-	)
-	(wire
-		(pts
 			(xy 355.6 74.93) (xy 350.52 74.93)
 		)
 		(stroke
@@ -7434,6 +7843,16 @@
 			(type default)
 		)
 		(uuid "ce43e656-2990-4df1-86e7-58d7d7377af1")
+	)
+	(wire
+		(pts
+			(xy 353.06 102.87) (xy 368.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf74b292-91e4-4f13-a07b-40d8dc77d767")
 	)
 	(wire
 		(pts
@@ -7657,16 +8076,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 137.16) (xy 347.98 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0269398-0e69-43c0-9ec3-6d62f6a8b74a")
-	)
-	(wire
-		(pts
 			(xy 171.45 149.86) (xy 172.72 149.86)
 		)
 		(stroke
@@ -7674,16 +8083,6 @@
 			(type default)
 		)
 		(uuid "e0591edb-9202-4078-b670-20b4fa714cc4")
-	)
-	(wire
-		(pts
-			(xy 347.98 125.73) (xy 355.6 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e2c413-8d10-4e6c-a7f2-316f41d2a6de")
 	)
 	(wire
 		(pts
@@ -7707,16 +8106,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 128.27) (xy 375.92 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e8a18b-c1ba-41ef-873d-f8176b0dccf5")
-	)
-	(wire
-		(pts
 			(xy 383.54 212.09) (xy 383.54 222.25)
 		)
 		(stroke
@@ -7724,6 +8113,16 @@
 			(type default)
 		)
 		(uuid "e6f5d85a-e5cd-44c2-af29-db11670abc3e")
+	)
+	(wire
+		(pts
+			(xy 377.19 106.68) (xy 377.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e842b260-d94b-45e3-a0be-bec36726d744")
 	)
 	(wire
 		(pts
@@ -7754,6 +8153,16 @@
 			(type default)
 		)
 		(uuid "ea456787-7ea8-4ee6-88d1-781b7e5a8812")
+	)
+	(wire
+		(pts
+			(xy 377.19 93.98) (xy 373.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae2b3c7-0943-4de3-8653-052b59eacce1")
 	)
 	(wire
 		(pts
@@ -7817,6 +8226,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 104.14) (xy 382.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe5304b-6a01-4530-a2ab-90f225c48ab1")
+	)
+	(wire
+		(pts
 			(xy 100.33 232.41) (xy 124.46 232.41)
 		)
 		(stroke
@@ -7824,6 +8243,26 @@
 			(type default)
 		)
 		(uuid "efede1d7-7715-43db-8bfc-095be5a9a49d")
+	)
+	(wire
+		(pts
+			(xy 373.38 93.98) (xy 373.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05aee7d-5cda-4fc0-9315-edf8d06f92f6")
+	)
+	(wire
+		(pts
+			(xy 363.22 92.71) (xy 373.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cf7989-8dbf-4c63-b5ad-862206f1a38d")
 	)
 	(wire
 		(pts
@@ -7847,13 +8286,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 125.73) (xy 347.98 125.73)
+			(xy 386.08 106.68) (xy 377.19 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3176e3e-0573-4741-8fe9-f4d1e050e6a5")
+		(uuid "f371d683-869e-4290-a6b9-f3fa5d0f9d93")
 	)
 	(wire
 		(pts
@@ -7887,7 +8326,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 118.11) (xy 355.6 115.57)
+			(xy 353.06 95.25) (xy 353.06 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7984,6 +8423,76 @@
 			(type default)
 		)
 		(uuid "ff0b2d11-2911-4f15-9347-267be29a63dc")
+	)
+	(label "5v_scl"
+		(at 386.08 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ad5a604-8fc9-4f79-a9f9-4dc18206344e")
+	)
+	(label "5v_sda"
+		(at 396.24 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5997c196-ef53-4c1e-b934-e4a6503720ee")
+	)
+	(label "5v_in"
+		(at 391.16 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "914da807-c7f1-47b5-bbfa-5c61efd5c228")
+	)
+	(label "Cell2"
+		(at 78.74 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8f4d291-2c72-422c-b6ed-4937286f3946")
+	)
+	(label "Cell1"
+		(at 78.74 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2bd2efa-5df3-424a-80b1-db66e228f414")
+	)
+	(label "Pack+"
+		(at 337.82 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0e1406b-06c5-4f7d-9af6-676f9ca75732")
+	)
+	(label "Batt-"
+		(at 85.09 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8747554-0786-4db7-bfd4-ca9c14f58735")
 	)
 	(global_label "TS6"
 		(shape input)
@@ -8203,7 +8712,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 344.17 125.73 180)
+		(at 341.63 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8213,7 +8722,7 @@
 		)
 		(uuid "512439ee-a125-42d1-876b-e397327cfc73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.6772 125.73 0)
+			(at 335.1372 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,30 +8731,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "Pack+"
-		(shape input)
-		(at 347.98 54.61 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51327c64-632a-40be-8e6a-66c243694821")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 347.98 45.5167 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8899,7 +9384,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 330.2 123.19 180)
+		(at 327.66 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8909,7 +9394,7 @@
 		)
 		(uuid "ffab6728-a1ca-4aca-880d-0f0ac402899c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.6467 123.19 0)
+			(at 321.1067 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +9418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "015ba3aa-11b7-45b7-934f-8cced92132b6")
-		(property "Reference" "#PWR37"
+		(property "Reference" "#PWR014"
 			(at 293.37 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -8993,7 +9478,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR37")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9011,7 +9496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02bc7222-1caa-49a5-98e7-d44556ffd9a6")
-		(property "Reference" "R45"
+		(property "Reference" "R9"
 			(at 160.02 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9084,7 +9569,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R45")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9102,7 +9587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06cbbb8a-7419-41d0-8e7c-7b26e7c0b8d4")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 285.75 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9690,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9223,7 +9708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0725f14f-e73d-4274-b2ec-4728d4df2d93")
-		(property "Reference" "R30"
+		(property "Reference" "R16"
 			(at 280.67 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9296,7 +9781,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R30")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9385,6 +9870,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 402.59 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "083b610b-2047-4b08-8488-9b5f27811bb2")
+		(property "Reference" "#PWR018"
+			(at 402.59 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 402.59 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 402.59 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ed41444-e3e0-4d32-af54-ca564be38d3f")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 293.37 200.66 0)
 		(mirror y)
@@ -9396,7 +9958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "087184bd-efc3-491a-b0c7-1bd19ae3c8c6")
-		(property "Reference" "R39"
+		(property "Reference" "R19"
 			(at 290.83 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,84 +10044,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 364.49 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "088402e8-1bf5-4a9d-b336-6ebb98181b88")
-		(property "Reference" "#PWR14"
-			(at 364.49 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 364.49 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 364.49 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 364.49 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 364.49 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ac6ab25-00d9-44bb-bc81-614140d37b18")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR14")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9577,7 +10062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b41135e-e548-456c-8c1f-00a8a0c60331")
-		(property "Reference" "C28"
+		(property "Reference" "C2"
 			(at 130.81 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9652,7 +10137,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C28")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -9660,7 +10145,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 342.9 119.38 180)
+		(at 340.36 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9670,8 +10155,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f54e869-ce76-4c4b-be97-a62312d166f1")
-		(property "Reference" "R50"
-			(at 345.44 118.1099 0)
+		(property "Reference" "R20"
+			(at 342.9 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9682,7 +10167,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 345.44 120.6499 0)
+			(at 342.9 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9693,7 +10178,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 341.884 119.126 90)
+			(at 339.344 96.266 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9704,7 +10189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 119.38 0)
+			(at 340.36 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +10200,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 342.9 119.38 0)
+			(at 340.36 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9726,7 +10211,7 @@
 			)
 		)
 		(property "MPN" "RCS040210K0FKED"
-			(at 342.9 119.38 0)
+			(at 340.36 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9745,7 +10230,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R50")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9763,7 +10248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "109d6eb1-d6c3-49e6-8077-e4aaba1d851f")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 166.37 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +10321,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9854,7 +10339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "173ca8ea-a20e-46cd-bcb8-22c79e31eb80")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 41.275 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9927,7 +10412,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9945,7 +10430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "180e5e01-a6b6-4a4c-8f0a-cf7780795ff4")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 186.69 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10020,7 +10505,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d6836c0-e965-47e3-8e54-d40b219b909d")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 286.766 163.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +10595,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10128,7 +10613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dabc686-bcb2-4a80-9290-76883fb103eb")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 132.08 204.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10201,7 +10686,84 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C10")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 402.59 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e660d38-afeb-487e-a3d6-f1fd4837ab92")
+		(property "Reference" "#PWR021"
+			(at 396.24 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.78 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 402.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 402.59 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54992a4c-63f9-4975-8e1b-7523033f246c")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10218,7 +10780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fa933f2-5828-4650-8e8c-6b2fe498b69b")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 128.27 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10293,7 +10855,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10312,7 +10874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a39222-f11d-438c-bcea-9dec150bfbe0")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 285.75 128.5874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10387,7 +10949,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10405,7 +10967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24f0761f-194e-49f1-a803-5fae26fe089c")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 318.77 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10480,7 +11042,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10497,7 +11059,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25b366c7-2234-4457-8038-718ca591e3d6")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 296.164 138.176 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10570,7 +11132,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10588,7 +11150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26be7742-590c-4511-96f9-b25ff35df378")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 237.49 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10663,7 +11225,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10681,7 +11243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "287bd18e-b4f8-4fcf-b780-fd90c032d180")
-		(property "Reference" "D12"
+		(property "Reference" "D6"
 			(at 340.36 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +11254,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15V SMAJ15CA-13-F"
+		(property "Value" "15V SMDJ15CA"
 			(at 340.36 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10703,7 +11265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 337.82 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10756,7 +11318,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D12")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -10774,7 +11336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d9e458-5c5b-453b-a7cf-f51903d863e2")
-		(property "Reference" "R38"
+		(property "Reference" "R17"
 			(at 281.94 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10869,7 +11431,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R38")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10888,7 +11450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "371ec651-a6e9-4a16-bc87-e96c02681c81")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 360.045 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10961,7 +11523,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11209,7 +11771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c642f25-f080-4001-8c50-5074f28b54e9")
-		(property "Reference" "C30"
+		(property "Reference" "C1"
 			(at 117.602 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11284,7 +11846,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C30")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -11302,7 +11864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d7987f8-17ef-4752-92ff-889c7802e63d")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 43.815 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11381,7 +11943,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11399,7 +11961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec77d10-f83b-43d7-9484-3e3534b2533c")
-		(property "Reference" "R31"
+		(property "Reference" "R14"
 			(at 261.62 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +12034,197 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R31")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 396.24 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4089ca18-5e5d-427a-b7d5-dd0441d776fd")
+		(property "Reference" "D5"
+			(at 398.78 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V ESD9X5.0ST5G"
+			(at 376.936 118.364 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 396.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 396.24 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESD9X5.0ST5G"
+			(at 396.24 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "331cc57e-46cb-47de-b7a0-69640d4e404f")
+		)
+		(pin "1"
+			(uuid "8215a604-8665-4568-8ec4-7fd6c42c210a")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 407.67 104.14 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4419bf5a-684e-42e8-8c83-3f307f27863e")
+		(property "Reference" "J5"
+			(at 407.67 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C"
+			(at 407.67 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 407.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 407.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B4B-XH-A"
+			(at 407.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d15cac7f-dffd-4d70-852f-7598e731adba")
+		)
+		(pin "2"
+			(uuid "6154db9a-f1d7-4c87-9170-27203c4a8b6a")
+		)
+		(pin "1"
+			(uuid "53187e65-dcce-429e-b17e-19f037cd0820")
+		)
+		(pin "4"
+			(uuid "3234ae9f-4d2f-4d99-92fe-8ba3a30b98b1")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -11490,7 +12242,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48533d6f-9ba2-4d65-ba2d-c2873e059531")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 156.464 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11523,7 +12275,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4115pbf.pdf?fileId=5546d462533600a401535636e5d2218f"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs7430-datasheet-en.pdf"
 			(at 152.4 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11569,7 +12321,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11587,7 +12339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497c9f8a-85c9-43e6-803a-d52a82702a7b")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 133.35 226.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11597,7 +12349,7 @@
 				)
 			)
 		)
-		(property "Value" "1mΩ PSR100KTQFH1L00"
+		(property "Value" "0.5mΩ PSR100KTQFF0L50"
 			(at 133.35 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +12412,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11677,7 +12429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ab12d52-611b-4f90-b09f-b4e719eb6410")
-		(property "Reference" "C26"
+		(property "Reference" "C19"
 			(at 309.118 210.312 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11774,7 +12526,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C26")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11792,7 +12544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bb74d82-9115-4af7-853f-346e020f8d77")
-		(property "Reference" "C27"
+		(property "Reference" "C7"
 			(at 175.26 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11867,7 +12619,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C27")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11885,7 +12637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "576ecfa8-285d-423a-a6c9-9e26ed00e1b8")
-		(property "Reference" "R19"
+		(property "Reference" "R6"
 			(at 140.97 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11960,7 +12712,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R19")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11978,7 +12730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c560fb4-383c-4c7e-9979-4ce89225a08f")
-		(property "Reference" "C17"
+		(property "Reference" "C10"
 			(at 190.5 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12051,7 +12803,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C17")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12069,7 +12821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5db12934-cac6-490b-beca-96a23ff79835")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 185.42 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12144,7 +12896,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12162,7 +12914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e18a03-afab-4bc9-b9e2-8da7e77c303d")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR020"
 			(at 383.54 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -12222,7 +12974,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR33")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12240,7 +12992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62434c58-64dc-464d-b53d-093e1d3e04a6")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 132.08 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12313,7 +13065,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12330,7 +13082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66486bbf-24c2-43ec-89f9-b5df9704dbc2")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR013"
 			(at 293.37 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12390,7 +13142,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR12")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12408,7 +13160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c7443f7-3e18-44e4-9e9c-5866ae8ccbd7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 208.28 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12468,7 +13220,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12579,6 +13331,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 392.43 109.22 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f96b73b-e3c0-433e-a40c-1388edf528d7")
+		(property "Reference" "R23"
+			(at 394.97 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 394.97 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 391.414 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 392.43 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 392.43 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RCS040210K0FKED"
+			(at 392.43 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60597f09-4620-4e05-a149-baff4f5c3aa1")
+		)
+		(pin "2"
+			(uuid "85e93b67-3123-4c4d-bbc1-2d71d1834d88")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 232.41 0)
 		(unit 1)
@@ -12668,7 +13513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c11862-da90-414e-a594-0b17a4c63ca4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 223.52 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12728,7 +13573,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -12746,7 +13591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7383e34e-ad2a-46cc-a8e2-c14f3f1eebcf")
-		(property "Reference" "R49"
+		(property "Reference" "R18"
 			(at 285.75 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12821,7 +13666,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R49")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12839,7 +13684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c6cc4ab-ab56-407f-a8d2-fd86f9dbf8c5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 203.2 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12899,7 +13744,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12916,7 +13761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "832a845b-f21a-4cdd-ac31-73e7b7f8f045")
-		(property "Reference" "R48"
+		(property "Reference" "R1"
 			(at 96.266 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12989,7 +13834,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R48")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -13007,7 +13852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87e7db92-a64f-4295-9fbf-dfc7cb4e3ab1")
-		(property "Reference" "R46"
+		(property "Reference" "R2"
 			(at 102.87 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13080,7 +13925,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R46")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -13097,7 +13942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8842b009-ea76-4530-bbe9-9ee7615e1958")
-		(property "Reference" "R47"
+		(property "Reference" "R3"
 			(at 103.378 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13170,7 +14015,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R47")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13188,7 +14033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88536109-285b-4394-a68b-053ece0dc90e")
-		(property "Reference" "#PWR41"
+		(property "Reference" "#PWR03"
 			(at 165.1 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13248,7 +14093,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR41")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13265,7 +14110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "892dffb4-6117-4502-9d0f-ffef6f0819b2")
-		(property "Reference" "R29"
+		(property "Reference" "R13"
 			(at 261.62 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13338,7 +14183,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R29")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -13356,7 +14201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89882a3d-f7c7-457c-8f10-8f4f9df9f17d")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 165.1 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13429,7 +14274,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13446,7 +14291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8adbff50-84aa-4117-8616-37b9377706f3")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR015"
 			(at 308.61 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -13506,7 +14351,100 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR13")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 411.48 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f8edbf8-7272-4d8c-b40d-cee81eb25a67")
+		(property "Reference" "D7"
+			(at 414.02 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5V ESD9X5.0ST5G"
+			(at 414.02 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 411.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 411.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 411.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESD9X5.0ST5G"
+			(at 411.48 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ba9eb0a-d860-48c6-a6c7-34ace3cb7294")
+		)
+		(pin "1"
+			(uuid "e5a061c1-b566-4557-88c9-aca9fd3d21ed")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -13525,7 +14463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c33f56-d13f-4f96-9e7d-86381f93c76b")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 150.1775 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13598,7 +14536,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13616,7 +14554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "964032d1-9c9d-47ab-acc1-3458e9afa307")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR010"
 			(at 218.44 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -13676,7 +14614,93 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR015")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 386.08 111.76 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96e9a987-b5f0-4ad8-ba4f-b27b1e4620f4")
+		(property "Reference" "Q5"
+			(at 386.08 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 386.08 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 384.175 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 382.27 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 386.08 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3b8792b-5d3a-42cd-aa4e-c07fb7e4b128")
+		)
+		(pin "1"
+			(uuid "bc42f441-1649-4c48-a967-714f7a9a6bf0")
+		)
+		(pin "3"
+			(uuid "797a6461-fb2b-47be-bb52-60932f7b0168")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -13694,7 +14718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db37b5e-07bb-4e02-a7f3-91f747ec11d3")
-		(property "Reference" "R20"
+		(property "Reference" "R8"
 			(at 158.75 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13769,99 +14793,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 332.74 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9dc7e6a5-5503-47b1-8f67-c63250641531")
-		(property "Reference" "D10"
-			(at 335.28 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V ESD9X5.0ST5G"
-			(at 313.436 132.334 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 332.74 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 332.74 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD9X5.0ST5G"
-			(at 332.74 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f404c6e4-79bf-468f-be9d-df5b9a5adf23")
-		)
-		(pin "1"
-			(uuid "1542f297-ec03-45ec-84b8-0e2e4b88735a")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13879,7 +14811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dce15da-bc9e-4651-a4f3-e6c46a98cbf4")
-		(property "Reference" "#PWR42"
+		(property "Reference" "#PWR02"
 			(at 123.19 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13939,7 +14871,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR42")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13957,7 +14889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc60732-7ddf-4f29-ac28-90b9cc940830")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 318.77 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14032,7 +14964,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -14050,7 +14982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1eb279a-ae9f-412d-ae52-870f2b13fa06")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR01"
 			(at 69.85 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14110,7 +15042,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR08")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -14128,7 +15060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a350959a-f694-4689-863f-01523787c856")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 334.645 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +15121,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -14207,7 +15139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a467a6f9-deab-43ff-adeb-9e5d3274e1f4")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR016"
 			(at 306.07 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14267,105 +15199,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 387.35 125.73 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac573bde-7bfe-401d-a62a-63850b9c0655")
-		(property "Reference" "J2"
-			(at 387.35 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C"
-			(at 387.35 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "B4B-XH-A"
-			(at 387.35 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "eb249a35-ca8e-4b49-95df-c4d5d365a67d")
-		)
-		(pin "2"
-			(uuid "f9e41cb9-f1e9-49c4-9999-690ac42e2e93")
-		)
-		(pin "1"
-			(uuid "d1571dba-ea64-48e3-999e-612b3993847a")
-		)
-		(pin "4"
-			(uuid "71419d25-7ae8-4d4f-952c-01425a6230b3")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "J2")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14382,7 +15216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af84b520-a1ba-4751-9cba-6951dda82e67")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 204.724 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14415,7 +15249,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4115pbf.pdf?fileId=5546d462533600a401535636e5d2218f"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfs7430-datasheet-en.pdf"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14461,7 +15295,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "Q4")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -14479,7 +15313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afba3aea-4374-4e9c-bd9e-c98a2140b2f5")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 386.715 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14540,7 +15374,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -14558,7 +15392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d064ce-20d7-4207-8381-20cc9b0bc70d")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 233.68 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14633,7 +15467,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -14651,7 +15485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5645aae-8df0-4106-a535-fa04474a5caa")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 143.51 219.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14726,7 +15560,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14744,7 +15578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b943bc9e-32cb-4fd5-863b-2a0d748fc1f7")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 127 219.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14819,100 +15653,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 347.98 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb144f77-1ab8-4924-825e-be16a7754649")
-		(property "Reference" "D11"
-			(at 350.52 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V ESD9X5.0ST5G"
-			(at 350.52 134.6199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 347.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 347.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ESD9X5.0ST5G"
-			(at 347.98 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f404c6e4-79bf-468f-be9d-df5b9a5adf24")
-		)
-		(pin "1"
-			(uuid "1542f297-ec03-45ec-84b8-0e2e4b88735b")
-		)
-		(instances
-			(project "Battery_Managment_System"
-				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "D11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15012,7 +15753,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 355.6 121.92 180)
+		(at 353.06 99.06 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15022,8 +15763,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1694e0b-195f-4ad1-add9-d355877c8b0f")
-		(property "Reference" "R51"
-			(at 358.14 120.6499 0)
+		(property "Reference" "R21"
+			(at 355.6 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15034,7 +15775,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 358.14 123.1899 0)
+			(at 355.6 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15045,7 +15786,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 354.584 121.666 90)
+			(at 352.044 98.806 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,7 +15797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 121.92 0)
+			(at 353.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15067,7 +15808,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 355.6 121.92 0)
+			(at 353.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15078,7 +15819,7 @@
 			)
 		)
 		(property "MPN" "RCS040210K0FKED"
-			(at 355.6 121.92 0)
+			(at 353.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15097,7 +15838,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R51")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -15115,7 +15856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c25d3374-890a-4086-b5c0-0e59677e901c")
-		(property "Reference" "R25"
+		(property "Reference" "R11"
 			(at 207.01 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15190,7 +15931,84 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R25")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 363.22 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c635277c-9f59-4fab-9868-65ffe010ff91")
+		(property "Reference" "#PWR019"
+			(at 363.22 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 358.648 90.678 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 363.22 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c43143c-287c-45c1-9508-6d26a5bdd8be")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15208,7 +16026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7b4e060-301b-47ad-b47e-89f101d1ba86")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -15268,7 +16086,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -15286,7 +16104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc54b706-4e3a-4222-8a8e-8f02be9fdab8")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 297.18 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15361,7 +16179,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -15497,6 +16315,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 373.38 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d01b2161-b67b-4308-b52d-5d439609e818")
+		(property "Reference" "Q4"
+			(at 373.38 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 373.38 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 371.475 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 369.57 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 373.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9fd0fefa-ef93-4406-866d-5dce09cd1cb6")
+		)
+		(pin "1"
+			(uuid "3c7604d0-b9f5-48f7-aa0d-d881b33de1cb")
+		)
+		(pin "3"
+			(uuid "08325289-bf7e-4c25-bf7f-277727802e44")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 273.05 160.02 0)
 		(unit 1)
@@ -15508,7 +16412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d42df17f-5fec-4819-a0d8-1ef462f13272")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR012"
 			(at 273.05 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -15568,7 +16472,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR01")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15585,7 +16489,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7bd4475-6632-469b-b254-430181cdf5b1")
-		(property "Reference" "C25"
+		(property "Reference" "C20"
 			(at 345.44 226.314 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15680,7 +16584,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C25")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -15698,7 +16602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8a89ce5-a8b1-468f-a048-a8ed08fd733c")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR04"
 			(at 181.61 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15758,7 +16662,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR5")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15775,7 +16679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d957dc6e-3da1-4966-9c80-5df7c616b0b2")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR017"
 			(at 326.39 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15835,7 +16739,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15853,7 +16757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e093131c-080d-4284-822a-fa036af43b62")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 201.93 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15928,7 +16832,100 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C7")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 382.27 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e71fe367-13c9-4c0e-80bd-0cc59e3e215f")
+		(property "Reference" "R22"
+			(at 384.81 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 384.81 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 381.254 98.806 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 382.27 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RCS040210K0FKED"
+			(at 382.27 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69c15f88-fda1-4f43-a6b9-54dfa6a46ff8")
+		)
+		(pin "2"
+			(uuid "48be80db-0564-4687-bdc0-f1b8178d5231")
+		)
+		(instances
+			(project "Battery_Managment_System"
+				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15945,7 +16942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea722dcc-5838-4837-ba2f-31bb7192a523")
-		(property "Reference" "R28"
+		(property "Reference" "R15"
 			(at 279.4 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16018,7 +17015,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R28")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -16036,7 +17033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea86bcab-80da-403b-9f72-a317bb2b8188")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 209.55 215.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16139,7 +17136,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -16156,7 +17153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2b9b614-b9dd-469c-bf53-dc8d83bfe2c6")
-		(property "Reference" "C29"
+		(property "Reference" "C5"
 			(at 127.762 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16231,7 +17228,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C29")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16249,7 +17246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbaa5884-ad0a-4295-af9b-b5b7bdb51e7d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 213.36 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -16309,7 +17306,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16327,7 +17324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fef599b4-31a5-449a-b603-1b0e50480127")
-		(property "Reference" "C21"
+		(property "Reference" "C16"
 			(at 306.07 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16402,7 +17399,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "C21")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -16420,7 +17417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff509788-4994-44d4-8a54-e47099c51a29")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 220.98 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16495,7 +17492,7 @@
 		(instances
 			(project "Battery_Managment_System"
 				(path "/f7a728f5-ba16-4cce-8f6c-15f4698be607"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
