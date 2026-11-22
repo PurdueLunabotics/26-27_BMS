@@ -11165,17 +11165,6 @@
 			(uuid "2604cab1-30af-4cef-8ea2-935bbe391df9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3D Models/XT90PB-M.step"
-			(offset
-				(xyz 0 5.4 -3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 90)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -13753,7 +13742,7 @@
 			(uuid "e863814c-cb24-4e6f-8b99-12e41d89ea65")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/3D Models/XT90PW-F.stp"
+		(model "XT90PW-F.stp"
 			(offset
 				(xyz -5.449999727 -8.930000171 0.09000000222)
 			)
