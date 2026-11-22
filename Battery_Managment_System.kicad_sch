@@ -10824,7 +10824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "173ca8ea-a20e-46cd-bcb8-22c79e31eb80")
 		(property "Reference" "J1"
@@ -11935,7 +11935,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "371ec651-a6e9-4a16-bc87-e96c02681c81")
 		(property "Reference" "J4"
@@ -12349,7 +12349,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3d7987f8-17ef-4752-92ff-889c7802e63d")
 		(property "Reference" "J2"
@@ -12630,7 +12630,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4419bf5a-684e-42e8-8c83-3f307f27863e")
 		(property "Reference" "J5"
@@ -12787,7 +12787,7 @@
 				)
 			)
 		)
-		(property "MPN" "IRFS7430"
+		(property "MPN" "IRFS7430TRL7PP"
 			(at 156.21 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -15189,6 +15189,17 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138-D"
+			(at 386.08 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3b8792b-5d3a-42cd-aa4e-c07fb7e4b128")
 		)
@@ -15773,7 +15784,7 @@
 				)
 			)
 		)
-		(property "MPN" "IRFS7430"
+		(property "MPN" "IRFS7430TRL7PP"
 			(at 204.47 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16895,6 +16906,17 @@
 				)
 			)
 		)
+		(property "MPN" "BSS138-D"
+			(at 373.38 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9fd0fefa-ef93-4406-866d-5dce09cd1cb6")
 		)
@@ -17543,7 +17565,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea86bcab-80da-403b-9f72-a317bb2b8188")
 		(property "Reference" "J3"
