@@ -10024,7 +10024,7 @@
 				)
 			)
 		)
-		(property "MPN" "RG1608P-1652-B-T5RG1608P-1652-B-T5"
+		(property "MPN" "RG1608P-1652-B-T5"
 			(at 293.37 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10575,7 +10575,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1005X5R1V105K050BC"
+		(property "MPN" "GRM188R71E105KA12D"
 			(at 281.94 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11112,7 +11112,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1005X5R1V105K050BC"
+		(property "MPN" "GRM188R71E105KA12D"
 			(at 295.91 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -11298,7 +11298,7 @@
 				)
 			)
 		)
-		(property "MPN" "SMAJ15CA-13-F"
+		(property "MPN" "SMDJ15CA"
 			(at 337.82 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12392,7 +12392,7 @@
 				)
 			)
 		)
-		(property "MPN" "PSR100KTQFH1L00"
+		(property "MPN" "PSR100KTQFF0L50"
 			(at 133.35 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -16564,7 +16564,7 @@
 				)
 			)
 		)
-		(property "MPN" "C1005X5R1V105K050BC"
+		(property "MPN" "GRM188R71E105KA12D"
 			(at 345.44 222.25 90)
 			(hide yes)
 			(show_name no)
