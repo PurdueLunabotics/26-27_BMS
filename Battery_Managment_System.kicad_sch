@@ -5793,6 +5793,10 @@
 		(uuid "bc7cd0e1-e620-4e89-b7a8-2cacc7963767")
 	)
 	(no_connect
+		(at 46.99 177.8)
+		(uuid "cda4fa20-8c03-45d9-8b2a-4f3492763f8e")
+	)
+	(no_connect
 		(at 223.52 144.78)
 		(uuid "f18b1a89-5d56-48b2-a48f-c6675bfa8aaa")
 	)
@@ -10392,7 +10396,7 @@
 				)
 			)
 		)
-		(property "MPN" "XT90PB-F"
+		(property "MPN" "XT90PB-M"
 			(at 40.64 175.26 0)
 			(hide yes)
 			(show_name no)
