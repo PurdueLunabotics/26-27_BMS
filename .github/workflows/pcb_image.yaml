@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_NAME: Battery_Managment_System.kicad_pcb
+  PROJECT_NAME: Battery_Managment_System
 
 jobs:
   render-image:
