@@ -5962,7 +5962,7 @@
 		(property "Reference" "R7"
 			(at 0.433846 2.848557 300)
 			(layer "F.SilkS")
-			(uuid "7cfbce8b-7aad-49e6-afb0-8266612022e7")
+			(uuid "d2f0e314-2a4b-407e-87f5-61d590761bf1")
 			(effects
 				(font
 					(size 1 1)
@@ -5973,7 +5973,7 @@
 		(property "Value" "100Ω"
 			(at 0 1.43 300)
 			(layer "F.Fab")
-			(uuid "e417c6f0-cd00-43b4-a20d-ad5fb3d9d42c")
+			(uuid "ee4a3d5a-742a-472d-a72f-7b929fb6bfa4")
 			(effects
 				(font
 					(size 1 1)
@@ -5985,7 +5985,7 @@
 			(at 0 0 300)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb4d6007-b544-44c8-a679-8c5e9a8f39f0")
+			(uuid "fb42766c-1c90-4b91-b229-3c0672965115")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +5996,7 @@
 			(at 0 0 300)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "205d9af4-9e93-4c17-b395-b984879c7dba")
+			(uuid "376c189e-15c1-4299-bd34-efe135a53838")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20025,6 +20025,22 @@
 		(uuid "1ed20588-42d7-4c94-bcd1-8aaf50d77a91")
 	)
 	(segment
+		(start 77.8781 51.933221)
+		(end 78.1656 52.220721)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Pack-")
+		(uuid "461ca6e7-d1e9-4a05-8b7e-1190ef1726c4")
+	)
+	(segment
+		(start 78.1656 54.91875)
+		(end 76.8031 56.28125)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Pack-")
+		(uuid "50b52a0a-8720-4ab9-8876-7611c15f2def")
+	)
+	(segment
 		(start 74.85 49.875)
 		(end 74.025 49.05)
 		(width 0.3)
@@ -20033,12 +20049,12 @@
 		(uuid "5c2b238a-cecc-44f8-9482-f508e2a09296")
 	)
 	(segment
-		(start 78.1656 54.91875)
-		(end 76.8031 56.28125)
+		(start 78.1656 52.220721)
+		(end 78.1656 54.91875)
 		(width 0.3)
 		(layer "F.Cu")
 		(net "Pack-")
-		(uuid "672cbc54-bb3d-426d-9a6c-ee8ab1629a36")
+		(uuid "6aaa9e08-43a6-4211-9f8b-100085974fe7")
 	)
 	(segment
 		(start 76.1344 56.28125)
@@ -20047,14 +20063,6 @@
 		(layer "F.Cu")
 		(net "Pack-")
 		(uuid "a8d9986d-5cb6-41da-9c31-4dd941395193")
-	)
-	(segment
-		(start 78.1656 52.220721)
-		(end 78.1656 54.91875)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Pack-")
-		(uuid "db6a0d40-63b6-4e10-a47e-3d24decd4c15")
 	)
 	(via
 		(at 70.55 58.2)
