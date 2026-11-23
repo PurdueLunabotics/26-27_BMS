@@ -12909,7 +12909,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V STS521050B750"
+		(property "Value" "5V GC0603052R542P"
 			(at 376.936 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12920,7 +12920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 396.24 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12953,7 +12953,7 @@
 				)
 			)
 		)
-		(property "MPN" "STS521050B750"
+		(property "MPN" "GC0603052R542P"
 			(at 396.24 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -15515,7 +15515,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V STS521050B750"
+		(property "Value" "5V GC0603052R542P"
 			(at 414.02 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15526,7 +15526,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 411.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -15559,7 +15559,7 @@
 				)
 			)
 		)
-		(property "MPN" "STS521050B750"
+		(property "MPN" "GC0603052R542P"
 			(at 411.48 119.38 90)
 			(hide yes)
 			(show_name no)
