@@ -12550,7 +12550,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V PEC2605C1ES_R1_00001"
+		(property "Value" "5V STS521050B750"
 			(at 376.936 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12594,7 +12594,7 @@
 				)
 			)
 		)
-		(property "MPN" "PEC2605C1ES_R1_00001"
+		(property "MPN" "STS521050B750"
 			(at 396.24 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -14881,7 +14881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V PEC2605C1ES_R1_00001"
+		(property "Value" "5V STS521050B750"
 			(at 414.02 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14925,7 +14925,7 @@
 				)
 			)
 		)
-		(property "MPN" "PEC2605C1ES_R1_00001"
+		(property "MPN" "STS521050B750"
 			(at 411.48 119.38 90)
 			(hide yes)
 			(show_name no)
