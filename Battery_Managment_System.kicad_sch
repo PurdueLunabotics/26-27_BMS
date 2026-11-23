@@ -10004,7 +10004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.274 106.934 90)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10037,7 @@
 				)
 			)
 		)
-		(property "MPN" "SG73P1EWTTP20R0F"
+		(property "MPN" "RCS060320R0FKEA"
 			(at 160.02 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -10216,7 +10216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 280.924 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -10249,7 +10249,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS04025K10FKED"
+		(property "MPN" "RCS06035K10FKEA"
 			(at 280.67 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -10665,7 +10665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.344 96.266 90)
 			(hide yes)
 			(show_name no)
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040210K0FKED"
+		(property "MPN" "SG73P1JTTD1002F"
 			(at 340.36 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12469,7 +12469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.874 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -12502,7 +12502,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS04025K10FKED"
+		(property "MPN" "RCS06035K10FKEA"
 			(at 261.62 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -12550,7 +12550,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V ESD9X5.0ST5G"
+		(property "Value" "5V PEC2605C1ES_R1_00001"
 			(at 376.936 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12561,7 +12561,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 396.24 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12594,7 +12594,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESD9X5.0ST5G"
+		(property "MPN" "PEC2605C1ES_R1_00001"
 			(at 396.24 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -13160,7 +13160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.446 45.974 90)
 			(hide yes)
 			(show_name no)
@@ -13193,7 +13193,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040210M0JNED"
+		(property "MPN" "RCS060310M0FKEA"
 			(at 138.43 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13865,7 +13865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 391.414 108.966 90)
 			(hide yes)
 			(show_name no)
@@ -13898,7 +13898,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040210K0FKED"
+		(property "MPN" "SG73P1JTTD1002F"
 			(at 392.43 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -14114,7 +14114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 282.194 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -14147,7 +14147,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0402300RJNED"
+		(property "MPN" "RCS0603300RFKEA"
 			(at 283.21 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14282,7 +14282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.266 161.036 90)
 			(hide yes)
 			(show_name no)
@@ -14315,7 +14315,7 @@
 				)
 			)
 		)
-		(property "MPN" "SG73P1EWTTP20R0F"
+		(property "MPN" "RCS060320R0FKEA"
 			(at 96.52 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -14373,7 +14373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.124 145.034 90)
 			(hide yes)
 			(show_name no)
@@ -14406,7 +14406,7 @@
 				)
 			)
 		)
-		(property "MPN" "SG73P1EWTTP20R0F"
+		(property "MPN" "RCS060320R0FKEA"
 			(at 102.87 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -14463,7 +14463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.124 152.654 90)
 			(hide yes)
 			(show_name no)
@@ -14496,7 +14496,7 @@
 				)
 			)
 		)
-		(property "MPN" "SG73P1EWTTP20R0F"
+		(property "MPN" "RCS060320R0FKEA"
 			(at 102.87 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -14631,7 +14631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 261.874 48.514 90)
 			(hide yes)
 			(show_name no)
@@ -14664,7 +14664,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS04025K10FKED"
+		(property "MPN" "RCS06035K10FKEA"
 			(at 261.62 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -14722,7 +14722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.354 89.154 90)
 			(hide yes)
 			(show_name no)
@@ -14755,7 +14755,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0402100RFKED"
+		(property "MPN" "SG73P1JTTD1000F"
 			(at 165.1 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -14881,7 +14881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5V ESD9X5.0ST5G"
+		(property "Value" "5V PEC2605C1ES_R1_00001"
 			(at 414.02 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +14892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 411.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14925,7 +14925,7 @@
 				)
 			)
 		)
-		(property "MPN" "ESD9X5.0ST5G"
+		(property "MPN" "PEC2605C1ES_R1_00001"
 			(at 411.48 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -15252,7 +15252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.226 57.404 90)
 			(hide yes)
 			(show_name no)
@@ -15285,7 +15285,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS04025K10FKED"
+		(property "MPN" "RCS06035K10FKEA"
 			(at 156.21 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -16031,7 +16031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.986 221.234 90)
 			(hide yes)
 			(show_name no)
@@ -16064,7 +16064,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0402100RFKED"
+		(property "MPN" "SG73P1JTTD1000F"
 			(at 140.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -16124,7 +16124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.476 221.234 90)
 			(hide yes)
 			(show_name no)
@@ -16157,7 +16157,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0402100RFKED"
+		(property "MPN" "SG73P1JTTD1000F"
 			(at 124.46 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -16309,7 +16309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 352.044 98.806 90)
 			(hide yes)
 			(show_name no)
@@ -16342,7 +16342,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040210K0FKED"
+		(property "MPN" "SG73P1JTTD1002F"
 			(at 353.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -16402,7 +16402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 205.486 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -16435,7 +16435,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS04025K10FKED"
+		(property "MPN" "RCS06035K10FKEA"
 			(at 204.47 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -17407,7 +17407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 381.254 98.806 90)
 			(hide yes)
 			(show_name no)
@@ -17440,7 +17440,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040210K0FKED"
+		(property "MPN" "SG73P1JTTD1002F"
 			(at 382.27 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -17497,7 +17497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 279.654 48.514 90)
 			(hide yes)
 			(show_name no)
@@ -17530,7 +17530,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS04025K10FKED"
+		(property "MPN" "RCS06035K10FKEA"
 			(at 279.4 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -17974,7 +17974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.456 44.704 90)
 			(hide yes)
 			(show_name no)
@@ -18007,7 +18007,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS040210M0JNED"
+		(property "MPN" "RCS060310M0FKEA"
 			(at 218.44 44.45 0)
 			(hide yes)
 			(show_name no)
